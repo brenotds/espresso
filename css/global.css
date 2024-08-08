@@ -1,0 +1,103 @@
+:root {
+  --bg-color: #f4f0ed;
+  --bg-color-light: #fefefd;
+  --color: #0e0a08;
+  --icon-bg: #624836;
+  --color-dec: linear-gradient(90deg, #d1c2b8 0%, #b9a597 100%);
+  --body-font: "Montserrat", sans-serif;
+  --tittle-font: "Merriweather", serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--color);
+  background-color: var(--bg-color-light);
+  font-family: var(--body-font);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3.2rem;
+}
+
+.bg {
+  background-color: var(--bg-color);
+}
+
+.btn {
+  margin-top: 3.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 16rem;
+  text-transform: uppercase;
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.4rem;
+  border: solid 0.2rem var(--color);
+  gap: 0.8rem;
+  color: var(--color);
+  box-shadow: 0.25rem 0.25rem var(--color);
+  font-weight: 500;
+}
+
+.btn:active {
+  transform: translate(0.2rem, 0.2rem);
+  box-shadow: 0.2rem 0.2rem var(--color);
+}
+
+.sec-title {
+  font-family: var(--tittle-font);
+  font-size: 3.6rem;
+  font-weight: 400;
+  position: relative;
+}
+
+.prod-title::before {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 0.4rem;
+  background: var(--color-dec);
+  border-radius: 0.4rem;
+  position: absolute;
+  top: 3.6rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+@media (max-width: 60rem) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+}

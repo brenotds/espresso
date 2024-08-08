@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.4rem 2.8rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.link {
+  color: var(--color);
+  font-size: 1.4rem;
+  padding: 1.2rem 0;
+}
+
+.link:hover {
+  color: #d1c2b8;
+  transition: all ease 0.3s;
+}
