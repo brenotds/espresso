@@ -53,6 +53,10 @@ img {
   background-color: var(--bg-color);
 }
 
+.p-m {
+  font-size: 1.4rem;
+}
+
 .btn {
   margin-top: 3.6rem;
   display: flex;
