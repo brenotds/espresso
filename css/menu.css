@@ -31,6 +31,7 @@
 
 .menu-desc {
   max-width: 28rem;
+  font-size: 1.2rem;
 }
 
 .menu-info {
@@ -55,27 +56,6 @@
   box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 2px;
 }
 
-.menu-title::before {
-  content: url("../icon/dec.svg");
-  display: block;
-  width: 2.4rem;
-  height: 2.4rem;
-  margin-top: 60%;
-  margin-left: 24%;
-  position: absolute;
-  z-index: -1;
-}
-
-.menu-title::after {
-  content: url("../icon/dec.svg");
-  display: block;
-  width: 2.4rem;
-  height: 2.4rem;
-  margin-top: 14%;
-  position: absolute;
-  z-index: -1;
-}
-
 @media (max-width: 60rem) {
   .menu-drinks {
     margin-bottom: 2.4rem;
@@ -86,6 +66,9 @@
     box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 2px;
   }
   .menu-flex::after {
+    background-color: var(--bg-color-light);
+  }
+  .menu-icon {
     background-color: var(--bg-color-light);
   }
 }
