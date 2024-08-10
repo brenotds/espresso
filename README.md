@@ -1,1 +1,1 @@
-Created this landing page to pratice my html and css skills. 
+Created this landing page to pratice my html,css and javaScript skills. 
