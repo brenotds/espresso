@@ -30,7 +30,8 @@
     transform: translate(-50%);
   }
   .about-sec {
-    padding-top: 3.2rem;
+    padding: 3.2rem 0;
+    order: -1;
   }
 
   .about-p {
