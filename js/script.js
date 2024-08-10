@@ -26,6 +26,6 @@ function initImageSwap() {
   setInterval(function () {
     const random = Math.floor(Math.random() * 3);
     image.src = images[random];
-  }, 3000);
+  }, 2000);
 }
 initImageSwap();
