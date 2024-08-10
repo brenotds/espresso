@@ -53,10 +53,6 @@ picture {
     font-size: 4.2rem;
     margin-top: 8rem;
   }
-
-  .img-bg {
-    max-width: 80%;
-  }
 }
 
 @media (max-width: 60rem) {
@@ -64,7 +60,12 @@ picture {
     font-size: 3.6rem;
     margin-top: 0;
   }
- 
+  .call-action {
+    padding: 4.2rem 0 8.4rem 0;
+  }
+  #image-bg {
+    order: -1;
+    margin-bottom: 3.2rem;
+    max-width: 90%;
+  }
 }
-
-
